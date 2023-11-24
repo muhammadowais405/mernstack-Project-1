@@ -251,10 +251,13 @@ margin-bottom: 1rem;
 
 
 
-.banner_inner .right_side{
-    width: 50%;
-    padding: 5px 15px;
-    }
+.banner_inner .right_side .right_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
 .banner_inner .right_side .right_img{
     width: 100%;
     height: 560px;
